@@ -1,0 +1,26 @@
+
+
+var n1 = 0;
+var n2 = 0;
+var result = 0 / 0;
+console.log(result);   // nan
+var n3 = "100"
+console.log(`n3 ${n3} and it's type is: ${typeof n3}`);
+
+var n3 = +n3;
+console.log(`n3 ${n3} and it's type is: ${typeof n3}`);
+
+var n4 = "Javascript";
+n4 = +n4;
+console.log(`n4 ${n4} and it's type is: ${typeof n4}`);
+
+var fullName = "Hello";
+fullName = +fullName;
+console.log(`fullName ${fullName} and it's type is: ${typeof fullName}`);
+
+var result = 10 + true;
+console.log(result);
+var result = 10 - false;
+console.log(result);
+
+

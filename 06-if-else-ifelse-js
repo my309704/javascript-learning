@@ -1,0 +1,24 @@
+
+
+var bonus = true;
+if (bonus) {
+    console.log(`I will buy a Range Rover car `);
+    var isHolidayApproved = true;
+    if (isHolidayApproved) {
+        console.log(`I will go to laddakh...`);
+        
+        
+    } else {
+        console.log(`I will trek to sinhgad fort....`);
+        
+        
+    }
+
+} else {
+    console.log(`I  will buy a cycle`);
+    
+    
+}
+
+console.log("========================End======================");
+
