@@ -24,12 +24,12 @@ console.log("========================================");
 function voteEligibility (age) {
 if (age>=18) {
     console.log(`YES you are eligible for vote`);
-    console.log(`=====================================`);
+    console.log("========================================");
     
     
 } else {
     console.log(`NO you are not eligible for vote`);
-    console.log(`======================================`);
+    console.log("========================================");
     
     
 }
@@ -49,7 +49,7 @@ function stringChar(str){
         
     } else {
         console.log(`No given string does not contains more than 10 character`);
-        console.log(`======================================================`);
+        console.log("========================================");
         
         
     }
