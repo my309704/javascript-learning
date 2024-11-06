@@ -1,5 +1,5 @@
 // for loop...
-console.log(" Print the number from 5 to 10 by incrementing 1");
+console.log("Print the number from 5 to 10 by incrementing 1");
 
 for (var index = 5; index <=15; index++) {
     console.log(index);
