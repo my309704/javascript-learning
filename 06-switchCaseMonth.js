@@ -6,7 +6,7 @@ switch (monthNum) {
         console.log("January");
         break;
     case 2:
-        console.log("Febuary");
+        console.log("February");
         break;
     case 3:
         console.log("March");
@@ -59,3 +59,4 @@ monthOfYear(9);
 monthOfYear(10);
 monthOfYear(11);
 monthOfYear(12);
+monthOfYear(13);
