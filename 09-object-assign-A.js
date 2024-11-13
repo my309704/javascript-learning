@@ -35,9 +35,17 @@ let professors ={
 }
 professors.details();
 
-professors.Certificate.splice(2,2,"Oracle certified");
+professors.Certificate.splice(2,0,"Oracle certified");
 console.log(`added certificate`);
 console.log(professors.Certificate);
+console.log(`Traverse the array in the object`);
+
+
+const professorCertificate = professors.Certificate;
+for (const element of professorCertificate) {
+    console.log(element);
+    
+}
 
 
 let professorss ={
@@ -67,6 +75,8 @@ console.log(professorss.degreesDetails.MBA);
 
 console.log(`last element of the array`);
 console.log(professorss.Certificate[professorss.Certificate.length-1]);
+
+
 
 
 
