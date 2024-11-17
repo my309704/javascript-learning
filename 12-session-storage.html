@@ -1,0 +1,23 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Session storage</title>
+</head>
+<body>
+    <h2>Session Storage</h2>
+    <script>
+        window.sessionStorage.setItem("firstName","Jenny");
+        window.sessionStorage.setItem("city","Pune");
+        window.sessionStorage.setItem("pin","400072");
+        window.sessionStorage.setItem("country","India");
+        window.sessionStorage.setItem("LastName","singh");
+        const firstName =  window.sessionStorage.getItem("firstName");
+        console.log(firstName);
+        window.sessionStorage.removeItem("pin");
+        
+    </script>
+</body>
+</html>
