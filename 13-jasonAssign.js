@@ -1,5 +1,5 @@
 
-const studentData = `{
+let studentData = `{
 "Name" : "Aleix Melon",
 "id" : "E00245",
 "role" : ["Dev" , "DBA"],
@@ -21,6 +21,7 @@ const studentData = `{
 
 
 }`
+
 const studentDataV = JSON.parse(studentData);
 console.log(typeof studentDataV);
 console.log(studentDataV);
