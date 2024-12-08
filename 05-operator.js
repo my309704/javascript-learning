@@ -16,6 +16,8 @@ console.log(`Exponential (**) is : ${result}`);
 var result = n1 / n2 ;
 console.log(`Division (/) is : ${result}`);
 
+var n1 = 17; var n2 = 3;
+
 var result = n1 % n2 ;
 console.log(`Modulus (%) is : ${result}`);
 
@@ -45,6 +47,14 @@ console.log(`============`);
 var result = n1 === n2;
 console.log(`Double equal == operator : ${result}`);
 
+
+var n1 = "20"; var n2 = 20;
+var result = n1===n2;
+console.log(result);
+
+var n1 = "20"; var n2 = 20;
+var result = n1==n2;
+console.log(result);
 
 
 

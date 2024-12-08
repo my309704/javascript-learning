@@ -22,3 +22,23 @@ if (bonus) {
 
 console.log("========================End======================");
 
+console.log("========================Start======================");
+var bonus = false;
+if (bonus) {
+    console.log(`i will go to america`);
+    var isMarried = false;
+    if (isMarried) {
+        console.log(`i will celebrate my wedding party`);
+        
+    } else {
+        console.log(`i will not celebrate wedding party`);
+        
+    }
+} else {
+    console.log(`i will go to village`);
+    
+}
+
+
+console.log("========================End======================");
+

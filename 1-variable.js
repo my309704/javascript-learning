@@ -15,12 +15,12 @@ city = "Delhi"; // Variable update
 console.log("city value: ", city); //Delhi
 
 //varialbe decleration and  initialization at same line
-var fullName ="Jenny Gates"
+var fullName = "Jenny Gates"
 console.log("fullName: ", fullName);
 
 
 //varialbe decleration and  initialization at same line
 var pin = "400072";
 console.log("pin: ", pin);
-var pin= "400107"; //variable update
+var pin = "400107"; //variable update
 console.log("pin: ", pin);
