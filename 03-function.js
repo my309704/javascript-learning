@@ -2,7 +2,7 @@
 // 
 // function decleration
 function show() {
-    console.log("Inside showfunction..");
+    console.log("Inside show function..");
     console.log("===============");
 
 }

@@ -31,3 +31,20 @@ function stringOperation(givenString){
 
 }
 stringOperation("I am Angular Developer");
+
+
+
+
+function schoolName(str){
+    var stringLength = str.length;
+    var words = str.split(" ");
+    var totalWords = words.length;
+
+    var strDivision = stringLength/totalWords;
+    console.log(strDivision);
+    
+
+
+}
+
+schoolName("Chnadrabhan sharma college");

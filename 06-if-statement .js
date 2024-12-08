@@ -10,4 +10,12 @@ if (bonus) {
 
 console.log("========================End======================");
 
+console.log("=======================Start=====================");
 
+var result = true;
+if (result) {
+    console.log(`I will take admissin in Thakur college`);
+    
+    
+}
+console.log("========================End======================");
